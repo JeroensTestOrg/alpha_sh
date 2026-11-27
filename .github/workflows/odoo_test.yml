@@ -1,4 +1,4 @@
-name: Odoo Tests (17.0)
+name: Odoo Tests (18.0)
 
 on:
   push:
@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Running Odoo tests for version 17.0"
+      - run: echo "Running Odoo tests for version 18.0"
